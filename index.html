@@ -26,9 +26,14 @@
             <a href="#fees">Fees</a>
             <a href="#documents">Documents</a>
             <a href="#eligibility">Eligibility</a>
+            <a href="#enquiry">Enquiry</a>
             <a href="#contact">Contact</a>
         </nav>
+
+        
     </header>
+
+
 
 
     <!-- HOME -->
@@ -44,6 +49,51 @@
             View Services
         </a>
     </section>
+
+
+    
+
+<!-- CUSTOMER ENQUIRY -->
+
+<section id="Book Your Free Consultation">
+
+    <h2>Book Your Free Consultation</h2>
+
+    <form action="https://formspree.io/f/xkjolozy"
+          method="POST">
+
+        <label>Full Name</label>
+        <input type="text" name="name" required>
+
+        <label>Mobile Number</label>
+        <input type="tel" name="phone"
+               pattern="[0-9]{10}"
+               maxlength="10" required>
+
+        <label>Email</label>
+        <input type="email" name="email">
+
+        
+        <label>Select Service</label>
+        <select name="service" required>
+            <option value="">Select Service</option>
+            <option>Income Tax Return</option>
+            <option>GST Registration</option>
+            <option>GST Return Filing</option>
+            <option>Accounting</option>
+            <option>Audit</option>
+            <option>Company Registration</option>
+            <option>Other Services</option>
+        </select>
+
+        <label>Message</label>
+        <textarea name="message" required></textarea>
+
+        <button type="submit">Submit Enquiry</button>
+
+    </form>
+
+</section>
 
 
     <!-- ABOUT CA -->
@@ -384,6 +434,14 @@
 
 
 
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+
+
+
     <!-- CONTACT -->
 
     <section id="contact">
@@ -421,6 +479,3 @@
 
 </body>
 </html>
-
-
-
